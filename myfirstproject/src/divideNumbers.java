@@ -21,6 +21,9 @@ public class divideNumbers implements Calculator {
         System.out.println("Difference: " + subtractor.calculate(first, second));
 
         System.out.println();
+
+
+        
         new AddNumbers().showAddition(first, second);
         new SubtractNumbers().showSubtraction(first, second);
 
