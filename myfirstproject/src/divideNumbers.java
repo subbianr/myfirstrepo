@@ -9,7 +9,8 @@ public class divideNumbers implements Calculator {
 
         System.out.print("Enter second number: ");
         int second = scanner.nextInt();
-
+        int fourth = first / second;
+        System.out.println("Division: " + fourth);
         Calculator adder = new AddNumbers();
         Calculator subtractor = new SubtractNumbers();
 
